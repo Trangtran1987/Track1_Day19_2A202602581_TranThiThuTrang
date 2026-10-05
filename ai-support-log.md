@@ -1,30 +1,22 @@
-# AI Support Log
+# Nhật ký sử dụng AI
 
-- **Công cụ:** Claude (Claude Code trong VS Code)
-- **Người dùng:** Trần Thị Thu Trang
+## Công cụ đã sử dụng
 
-## AI đã hỗ trợ gì
+- **Lovable:** dùng để xây dựng prototype Option A (AI Notes Reviewer) và Option C (Guide Point AI), theo các liên kết prototype của nhóm.
+- **Claude Artifacts:** dùng để tạo prototype Option B (Review 3 Points), theo liên kết prototype của nhóm.
+- **AI hỗ trợ soạn thảo và phát triển prototype:** hỗ trợ làm rõ đề bài/thuật ngữ, tổng hợp evidence từ Practice Notes, đề xuất Option A/B/C cùng Comparison Contract và Human–AI Decision Table, viết mã prototype, dữ liệu mẫu, canned AI output và khung tài liệu.
 
-| Việc | AI làm | Đầu vào tôi cung cấp |
-|---|---|---|
-| Hiểu đề bài | Tóm tắt mục đích lab, giải thích thuật ngữ, hướng dẫn từng chặng | Nội dung đề bài các bước |
-| Chặng 1 | Tổng hợp Evidence Snapshot, đối chiếu Pain A/B, đề xuất Hypothesis Problem | 4 Practice Notes và README Day 17 của nhóm |
-| Chặng 2 | Đề xuất Option A/B/C và Comparison Contract | Kết quả Chặng 1, Solution Parking Lot |
-| Chặng 3 | Đề xuất Human–AI Decision Table và tình huống AI sai cài sẵn | Kết quả Chặng 2 |
-| Design Sheet | Gộp Chặng 1–3 thành `three-option-design-sheet.md` | Nội dung nhóm đã chốt |
-| Chặng 4 | Viết code prototype, dữ liệu mẫu (synthetic), canned AI output, màn hình điều phối và nhật ký thao tác | Design Sheet |
-| Nộp bài | Soạn khung README và các tệp nộp | Yêu cầu nộp bài |
+> Các prototype dùng phản hồi AI viết sẵn, không kết nối AI thật. Nội dung ghi chú, slide và bài học trong prototype là dữ liệu giả lập do nhóm tạo.
 
-AI **không** tạo quote, observation hay feedback của tester, và không viết phần Đóng góp cá nhân.
+## AI hỗ trợ hiệu quả
 
-## AI sai hoặc hời hợt ở đâu
+- Tăng tốc việc chuyển ý tưởng và các phương án thiết kế thành prototype có thể dùng để kiểm thử.
+- Hỗ trợ tạo cấu trúc luồng, nội dung mẫu và các phản hồi minh họa để nhóm quan sát cách tester tương tác.
+- Hỗ trợ sắp xếp thông tin từ đề bài và Practice Notes thành các phương án, bảng so sánh và tài liệu làm việc.
 
-<!-- Tự viết: phần nào AI đề xuất chưa đúng, chưa sát thực tế, hoặc nhóm phải sửa -->
+## Phần tôi tự thực hiện và chỉnh sửa
 
-- 
-
-## Tôi tự kiểm tra và sửa gì
-
-<!-- Tự viết: đã đối chiếu gì với evidence gốc, đã sửa gì trong prototype/design sheet -->
-
-- 
+- Tôi phụ trách thiết kế luồng và nội dung prototype Option B; AI hỗ trợ phần xây dựng prototype.
+- Khi giao diện AI tạo ra chưa đúng kỳ vọng, tôi mô tả yêu cầu cụ thể hơn để AI chỉnh sửa, thay vì giữ nguyên giao diện chưa phù hợp.
+- Tôi rà soát và giữ quyền quyết định đối với nội dung, cách phân chia trách nhiệm giữa người học và AI, cũng như trải nghiệm cần kiểm thử.
+- Trong phiên test, tester đối chiếu nội dung AI ở Option C với slide buổi 12 và thử hỏi AI lần nữa khi chưa hài lòng. Prototype chỉ dùng canned output, vì vậy kết quả này không chứng minh được độ chính xác của một hệ thống AI thật.

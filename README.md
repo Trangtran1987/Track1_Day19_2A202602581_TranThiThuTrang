@@ -1,6 +1,6 @@
 # Track1_Day19_2A202602581_TranThiThuTrang
 
-Day 18 — Three prototypes, one next change
+Day 19 — Three prototypes, one next change
 
 | Tệp | Nội dung |
 |---|---|
@@ -47,30 +47,26 @@ Cả ba dùng chung user, situation, task, nội dung mẫu và desired outcome;
 
 ## 4. Đóng góp của tôi trong nhóm
 
-<!-- Tự viết phần này (lab không cho phép AI viết hộ). Gợi ý những gì cần nêu cụ thể:
-     - Option tôi phụ trách chính: A / B / C
-     - Phần shared context/content tôi làm
-     - Phần Human–AI decisions tôi đề xuất hoặc chỉnh
-     - Phiên test tôi facilitate (tester nào, thứ tự nào)
-     - Phần tổng hợp feedback tôi tham gia
-     - Phần nào AI hỗ trợ và tôi đã kiểm tra/sửa gì -->
-
-- 
+- **Option phụ trách chính:** Option B.
+- **Shared context:** Tôi xây dựng shared context cho Option B: trước buổi học sau, AI gợi ý điểm cần ôn kèm lý do và mức liên quan; người học chọn ôn ngay / để sau / bỏ qua. Mục tiêu là để người học chủ động lựa chọn hành động ôn tập và nhắc nhở để tránh việc quên xem lại.
+- **Human–AI decisions:** Tôi xác định người học chủ động lựa chọn hành động ôn tập và tự quyết định khi nào đã hiểu.  AI sẽ gợi ý phần nội dung cần ôn tập dựa vào phần take note của người học, giải thích các nội dung khó hiểu trên slide gốc và có nhắc nhở ôn tập.
+- **Phiên test tôi facilitate:** Tôi facilitate phiên test với bạn Hoàng Quốc Dũng (2A202602523). Tester trải nghiệm cả ba option A, B, C.
+- **Tổng hợp feedback tôi tham gia:** Tester chọn Option C vì dễ hiểu, dễ sử dụng và chấp nhận tự viết tay 3 note. 
+- **Phần AI hỗ trợ và phần tôi thực hiện:** AI hỗ trợ tôi xây dựng prototype; tôi phụ trách thiết kế luồng và nội dung. Khi giao diện AI tạo ra chưa đúng kỳ vọng, tôi mô tả yêu cầu chi tiết hơn để AI chỉnh sửa.
 
 ## 5. Prototype Feedback
 
-- **Observation từ phiên tôi facilitate:** xem [prototype-feedback-note.md](prototype-feedback-note.md)
-  - 
-- **Tổng hợp feedback của nhóm:** xem [group-feedback-synthesis.md](group-feedback-synthesis.md)
-  - Pattern: 
-  - Khác biệt: 
-- **Next Change:** 
-- **Still Unproven:** 
+- **Observation từ phiên tôi facilitate:** Tester xem cả ba option theo thứ tự A, B, C và dừng lại dùng Option C đầu tiên vì thấy dễ hiểu, dễ sử dụng. Ở Option B, tester do dự và phải đọc nhiều mới biết cần ôn gì. Tester chọn Option C, chấp nhận tự ghi 3 note; khi chưa hài lòng với câu trả lời, tester đối chiếu slide buổi 12 rồi hỏi AI lần nữa. Chi tiết tại [prototype-feedback-note.md](prototype-feedback-note.md).
+- **Tổng hợp feedback của nhóm:** xem [group-feedback-synthesis.md](group-feedback-synthesis.md).
+  - **Pattern:** Option C được chọn trong 2/3 phiên; người thử chấp nhận tự ghi nội dung để đổi lấy trải nghiệm dễ dùng. Các phiên cũng cho thấy ma sát khi phải hiểu nhiều lựa chọn hoặc tìm nội dung cần ôn.
+  - **Khác biệt:** Tester phiên Linh chọn Option B để giảm công sức tự rà soát; tuy nhiên, AI bỏ sót một điểm chưa hiểu. Các tester cũng dùng cách khác nhau để lấy lại quyền kiểm soát: đối chiếu slide, xem toàn bộ danh sách hoặc quay lại thao tác.
+- **Next Change đề xuất:** Làm nút **“Xem tất cả điểm chưa hiểu”** dễ nhận ra bên cạnh recommendation của Option B, đồng thời nói rõ gợi ý của AI có thể chưa đầy đủ. Đây là đề xuất rút ra từ feedback, chưa khẳng định là quyết định cuối cùng nhóm đã thống nhất.
+- **Still Unproven:** Chưa biết người học có tự kiểm tra danh sách đầy đủ, phát hiện và xử lý phần AI bỏ sót hay không; cũng chưa chứng minh lời nhắc giúp họ thực sự quay lại ôn tập hoặc cải thiện khả năng ghi nhớ/kết quả học.
 
 ## 6. AI Support Log
 
 Chi tiết: [ai-support-log.md](ai-support-log.md)
 
-- **AI đã giúp gì:** tóm tắt đề bài và thuật ngữ; tổng hợp evidence từ Practice Notes; đề xuất Option A/B/C, Comparison Contract và Human–AI Decision Table; viết code prototype, dữ liệu mẫu và canned AI output; soạn khung các tệp nộp bài.
-- **AI sai/hời hợt ở đâu:** 
-- **Tôi tự sửa gì:** 
+- **Công cụ và AI đã giúp gì:** Nhóm dùng Lovable để xây dựng prototype Option A/C và Claude Artifacts cho Option B. AI hỗ trợ làm rõ đề bài, tổng hợp evidence, đề xuất các option và bảng quyết định Human–AI, tạo mã prototype, nội dung/dữ liệu mẫu và canned output, cũng như khung tài liệu.
+- **AI sai hoặc chưa phù hợp:** Giao diện AI tạo ra có lúc chưa đúng kỳ vọng về luồng và cách trình bày, cần mô tả lại cụ thể hơn. Các prototype dùng canned output, không kết nối AI thật nên không thể dùng để kết luận về độ chính xác của AI thật. Ngoài điểm chưa phù hợp về giao diện, chưa có lỗi cụ thể nào khác được ghi nhận trong log.
+- **Tôi tự rà soát/chỉnh sửa:** Tôi phụ trách thiết kế luồng và nội dung Option B; khi giao diện chưa phù hợp, tôi bổ sung mô tả chi tiết để AI chỉnh sửa. Tôi cũng rà soát nội dung, cách chia quyền quyết định giữa người học và AI, và đối chiếu feedback tester với nguồn slide buổi 12. Chi tiết tại [ai-support-log.md](ai-support-log.md).
